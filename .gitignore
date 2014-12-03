@@ -1,3 +1,6 @@
+## Fichiers personnels
+*.tmp.tex
+
 ## Dossier de compilation
 out/
 

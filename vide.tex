@@ -1,102 +1,12 @@
-\documentclass{ltr} %{{{1 vim: set ts=2 sw=2 tw=100 fdm=marker aw spell:
-  \def\PRENOM{Prénom}
-     \def\NOM{Nom}
-     \def\RUE{Rue 0}
-     \def\NPA{0000}
-   \def\VILLE{Ville}
-   \def\NATEL{000 000 00 00}
-\def\COURRIEL{adresse@invalide.net}
-        \lieu{Lieu}
-        \date{Date du timbre postal}
+\documentclass{ltr}
+  \def\PRENOM{~}
+     \def\NOM{~}
+     \def\RUE{~}
+     \def\NPA{~}
+   \def\VILLE{~}
+   \def\NATEL{~}
+\def\COURRIEL{~}
+        \lieu{~}
+        \date{~}
 
-\begin{document}%{{{1
-    \institut{institut}
-\newcommand\corpdelettre[1]{%
-\conc{Révocation contribution FEDE #1}
-
-\opening{Madame,\\ Monsieur,}
-
-Me sentant totalement lâché,
-	voyant mes conditions de travail se dégrader,
-	ma charge et la pénibilité augmenter,
-	alors que mon salaire baisse,
-	je ne vois qu'une solution,
-	en découdre avec le conseil d'état.
-Comme beaucoup de collègues,
-	j'avais posé de gros espoirs sur le combat commencé en 2013
-	tout en sachant pertinemment que cela prendrait du temps,
-	et qu'il ne suffirait pas de se voir une fois dans une ambiance bon enfant pour que les choses bougent.
-
-La FEDE a baissé les bras en acceptant que tous soit remis sur le tapis chaque année,
-	sans aucune prise en compte des sacrifices,
-	nombreux,
-	que la fonction publique a déjà acceptés.
-Par la suite,
-	la FEDE ne s'est pas donnée la peine de renégocier pour 2015.
-Elle a donc préféré faire le jeu des politiciens plutôt que de défendre le personnel de l'état.
-Je ne vois pas en quoi cette FEDE me représente.
-	
-En conséquence,
-	je vous demande de ne plus verser ma contribution,
-	pourtant symbolique,
-	à cette institution.
-
-\closing{%
-	En espérant vous compter parmi les personnes voulant un service public digne de ce nom,
-	je vous adresse,
-	Madame,
-	Monsieur,
-	mes salutations les meilleures.
-}
-
-}% fin du corp
-
-%{{{1 Lettre FEDE
-\begin{letter}{\adret FEDE\\ Boulevard de Pérolles 8\\ Case postale 533\\[1ex] 1701 \textbf{Fribourg}}
-	\corpdelettre{~~~\emph{Copie pour information}}
-\end{letter}
-
-%{{{1 Lettre spo
-\begin{letter}{\adret Service du personnel et d'organisation\\ Rue Joseph-Piller 13\\[1ex] 1700 \textbf{Fribourg}}
-	\corpdelettre{}
-	\encl{Formulaire de déclaration de refus.}
-	\cc{FEDE pour information.}
-\end{letter}
-
-%{{{1 Lettre formulaire
-\begin{letter}{\adret Service du personnel et d'organisation\\ Rue Joseph-Piller 13\\[1ex] 1700 \textbf{Fribourg}}
-\conc{}
-\opening{}
-	\noindent{%
-		\Large%
-		\sffamily
-		Contribution de soutien en faveur des associations de personnel
-		\\[-1ex]\rule{2ex}{.4mm}\\[.6ex]
-		\bfseries
-		Formulaire de déclaration
-	}
-
-	\vspace{3ex}\par\noindent\parbox{5cm}{Nom}: \dotfill
-	\vspace{3ex}\par\noindent\parbox{5cm}{Prénom}: \dotfill
-	\vspace{3ex}\par\noindent\parbox[t]{5cm}{\No personnel (figure au recto de votre relevé de salaire)}: \dotfill
-
-	\vspace{2ex}\par\noindent{\large\sffamily Mettre une croix dans la case correspondante ci-dessous:}
-
-	\vspace{2ex}\par{\bfseries\raisebox{.5mm}{\fbox{\rule{0mm}{1ex}\rule{1ex}{0mm}} } Déclaration de refus}\\
-	Je confirme avoir pris connaissance des dispositions légales relatives à la contribution de soutien.
-	Je déclare en toute connaissance de cause refuser le prélèvement de la contribution de soutien et
-	prie le centre de paie d'exécuter ma prise de position avec effet pour le mois suivant la date
-	d'envoi.
-
-	\vspace{3ex}\par{\bfseries\raisebox{.5mm}{\fbox{\rule{0mm}{1ex}\rule{1ex}{0mm}} } Révocation du refus}\\
-	Je confirme avoir pris connaissance des dispositions légales relatives à la contribution de
-	soutien. Je déclare en toute connaissance de cause révoquer mon refus du prélèvement de la
-	contribution de soutien et prie le centre de paie d'exécuter ma prise de position avec effet pour
-	le mois suivant la date d'envoi.
-
-	\vspace{4ex}\par\noindent\parbox{3cm}{Lieu et date}: \dotfill
-	\vspace{4ex}\par\noindent\parbox{3cm}{Signature}: \dotfill
-
-\end{letter}
-
-\end{document}
+\input{template.ttex}
