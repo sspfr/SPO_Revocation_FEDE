@@ -2,6 +2,9 @@ Lettre de révocation FEDE
 =========================
 Modèle de lettre pour demander au SPO la révocation de la cotisation à la FEDE
 
+Un exemple est disponible ici:
+http://sspfr.fr-teke.net/files/SPO/SPO_FEDE_example.pdf
+
 But
 ---
 Le script produit trois documents:
@@ -43,6 +46,10 @@ Outil
 * bash
 * pdflatex
 * La classe lettre de l'Observatoire de Genève
+
+Si la classe lettre manque, il est possible de la charger ici:
+http://sspfr.fr-teke.net/files/SPO/lettre.cls
+
 
 
 Workflow
