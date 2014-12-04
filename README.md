@@ -24,15 +24,19 @@ Il est quand même intéressant de leur signifier notre désapprobation.
 Fonctionnement
 --------------
 Il faut créer un fichier texte avec la commande :
-	> make new
-et renommer le fichier créé (il est important de laisser l'extention \*.tmp.tex
+
+> $ make new
+
+et renommer le fichier créé (il est important de laisser l'extension \*.tmp.tex
 pour que le fichier contenant les données personnelles ne soit pas intégré à
 GIT).
 
 Éditez le fichier pour introduire les données personnelles.
 
 Tapez la commande :
-	> $ make 
+
+> $ make
+
 pour produire les fichiers.
 
 Le PDF se trouve dans le sous-dossier out/
