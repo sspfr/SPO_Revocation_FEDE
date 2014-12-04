@@ -10,7 +10,7 @@ all: target
 
 .PHONY:target
 target: doss ${TARGET} clean
-${OUT}/%.pdf: %.tex ${INC}
+${OUT}/%.pdf: %.tex ${INC} institut.ins template.ttex
 	@echo "compillatioin de : $@"
 	@${CC} && ${CC}
 
